@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 // import './App.css';
 import { GoogleMap, withScriptjs, withGoogleMap, Marker, InfoWindow } from 'react-google-maps';
-import * as parkData from './data/skateboard-parks.json'
+import * as parkData from 'parking.json'
 
 function Map() {
   const [selectedPark, setSelectedPark] = useState(null); 
